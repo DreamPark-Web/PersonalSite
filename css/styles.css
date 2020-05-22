@@ -1,0 +1,163 @@
+body {
+  color: #363434;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif
+}
+
+h1 {
+  color: #ff8364;
+  font-size: 5.625rem;
+  margin: 10px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #ff8364;
+  font-size: 3rem;
+  font-family: "Didact Gothic", sans-serif
+}
+
+h3 {
+  color: #fea386;
+  font-family: "Didact Gothic", sans-serif
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #fea386;
+  font-size: 1rem;
+  font-family: "Didact Gothic", sans-serif
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #efecec;
+  border-width: 5px;
+  width: 3%;
+}
+
+#h2sub {
+  color: #ff8364;
+  font-size: 1.2rem;
+  font-family: "Didact Gothic", sans-serif
+}
+
+.top-container {
+  background-color: #fff4e1;
+  position: relative;
+  padding-top: 100px;
+  height: 730px;
+}
+
+.island {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bottom-cloud {
+  width: 200px;
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+
+.top-cloud {
+  width: 200px;
+  size: 20px;
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+
+.middle-container {
+  position: relative;
+  margin: 100px 0;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto 100px auto;
+}
+
+.profileimg {
+  width: 30%;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skills {
+  margin: 100px auto 150px auto;
+}
+
+.skillimg1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillimg2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 100px auto 100px auto;
+}
+
+.contact-message {
+  margin-bottom: 80px;
+}
+
+.btn {
+  background-color: #ff8364;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #fff4e1;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #fea386;
+}
+
+.bottom-container {
+  background-color: #fff4e1;
+  position: relative;
+  padding: 40px;
+}
+
+.footer-link-img {
+  width: 5%;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+.footer-link-img:hover {
+  background-color: white;
+}
+
+.bottom-paragraph1 {
+  font-size: 0.75rem;
+}
+
+.bottom-paragraph2 {
+  font-size: 0.60rem;
+  position: absolute;
+}
+
+.flaticon {
+  font-size: 0.60rem;
+}
