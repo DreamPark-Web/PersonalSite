@@ -40,10 +40,14 @@ hr {
   width: 3%;
 }
 
-#h2sub {
+.h2sub {
   color: #ff8364;
   font-size: 1.2rem;
   font-family: "Didact Gothic", sans-serif
+}
+
+.title-text {
+  z-index: 1;
 }
 
 .top-container {
@@ -51,9 +55,11 @@ hr {
   position: relative;
   padding-top: 100px;
   height: 730px;
+  z-index: -1;
 }
 
 .island {
+  width: 500px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -62,18 +68,19 @@ hr {
 }
 
 .bottom-cloud {
-  width: 200px;
+  width: 12%;
   position: absolute;
   left: 20%;
-  bottom: 30%;
+  bottom: 30%; 
 }
 
 .top-cloud {
-  width: 200px;
+  width: 12%;
   size: 20px;
   position: absolute;
   right: 20%;
   top: 5%;
+  z-index: -1;
 }
 
 .middle-container {
@@ -87,7 +94,8 @@ hr {
 }
 
 .profileimg {
-  width: 30%;
+  width: 200px;
+  margin: 0 auto 50px auto;
 }
 
 .skill-row {
@@ -101,13 +109,13 @@ hr {
 }
 
 .skillimg1 {
-  width: 25%;
+  width: 200px;
   float: left;
   margin-right: 30px;
 }
 
 .skillimg2 {
-  width: 25%;
+  width: 200px;
   float: right;
   margin-left: 30px;
 }
@@ -115,6 +123,10 @@ hr {
 .contact-me {
   width: 30%;
   margin: 100px auto 100px auto;
+}
+
+.contact-header {
+  padding-bottom: 50px;
 }
 
 .contact-message {
@@ -131,6 +143,7 @@ hr {
 
 .btn:hover {
   background-color: #fea386;
+  color: #fff4e1;
 }
 
 .bottom-container {
